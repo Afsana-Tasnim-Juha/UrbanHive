@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -46,7 +46,7 @@ nav {
 
 .hive-section {
     color: #e892cf;
-    font-family: ;
+    font-family: 400;
 }
 
 .nav-item-container {
@@ -70,5 +70,72 @@ nav {
     border-radius: 5px;
     font-weight: 700;
     color: black;
+
+}
+
+
+.banner-container {
+
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icons-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+.fa-brands {
+    font-size: 60px;
+
+}
+
+.banner-text {
+
+    width: 50%;
+    text-align: center;
+}
+
+.banner-img {
+
+    width: 50%;
+
+
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    background-image: linear-gradient(to bottom, rgb(152, 140, 163), #e892cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+
+}
+
+.banner-text p {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.banner-btn {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid rgb(88, 84, 49);
+    margin-right: 20px;
+    border-radius: 5px;
 
 }
