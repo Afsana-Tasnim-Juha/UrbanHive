@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+nav {
+    background-color: rgb(152, 140, 163);
+}
+
+.nav-container {
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(152, 140, 163);
+
+}
+
+.logo-container {
+
+    display: flex;
+
+    width: 50%;
+
+}
+
+.logo-container img {
+
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+
+.logo-container p {
+    font-size: 30px;
+
+}
+
+.hive-section {
+    color: #e892cf;
+    font-family: ;
+}
+
+.nav-item-container {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-item-container .login-btn {
+    background-color: #e892cf;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+
+}
